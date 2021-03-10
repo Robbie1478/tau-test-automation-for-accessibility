@@ -40,3 +40,6 @@ While installing `Axe-CLI` I encountered an error `cb.apply is not a function`, 
 ### Test Runner
 
 - `npx cypress open` will open cypress visual test runner and example test file
+
+## Chapter 7 Writing Accessibility Tests With Cypress Axe
+
