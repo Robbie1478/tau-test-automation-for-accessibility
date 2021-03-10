@@ -35,5 +35,8 @@ While installing `Axe-CLI` I encountered an error `cb.apply is not a function`, 
 ### Installing Cypress
 
 - `npm i -D cypress@4.8.0 cypress-axe@0.8.1` - this version has been used for the course by the author so they always know it will work in future
-- `npx cypress open` will open cypress visual test runner and example test file
 - Imports you will need to add an import in the index.js file `import 'cypress-axe` which can be found `C:\PersonalDevelopment\TAU\tau-test-automation-for-accessibility\cypress-axe-project\cypress\support`
+
+### Test Runner
+
+- `npx cypress open` will open cypress visual test runner and example test file
