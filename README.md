@@ -9,3 +9,9 @@
 
 - Node and NPM must be installed - [Node and NPM can be downloaded here](https://nodejs.org/en/download/)
 - [Axe-CLI](https://github.com/dequelabs/axe-cli)
+
+## Trouble Shooting
+
+While installing `Axe-CLI` I encountered an error `cb.apply is not a function`, I used the below website to help resolve this issue which seem to stop the error, specifically option one - https://github.com/nodejs/help/issues/2874#issuecomment-663661148
+
+- [Help resolving errors when running npm install -g axe-cli](https://github.com/nodejs/help/issues/2874)
