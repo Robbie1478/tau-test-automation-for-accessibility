@@ -43,3 +43,16 @@ While installing `Axe-CLI` I encountered an error `cb.apply is not a function`, 
 
 ## Chapter 7 Writing Accessibility Tests With Cypress Axe
 
+Added a sample test in 7.1
+
+```bash
+/// <reference types="cypress"/>
+ 
+describe('Todo application', () => {
+    it('should log any accessibility failures', () => {
+      cy.visit('http://todomvc.com/examples/react');
+      cy.injectAxe();
+      cy.checkA11y();
+    });
+   });
+```
